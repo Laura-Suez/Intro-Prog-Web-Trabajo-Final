@@ -3,13 +3,64 @@
     margin: 0;
     font-size: 20px;
 }
-
+/*  estilos nav bar de boostrap */
 .NavBar{
     width: 100%;
-    background-color: black;
+    
+    
 }   
-.container-fluid{
-    background-color:#d279d2;
 
+.no-padding {
+    padding: 0 !important;
 }
+
+.container-fluid{
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 35%, rgba(0,198,255,1) 100%);
+}
+
+.listaNav{
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+/* Estilos para el footer */
+.footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 35%, rgba(0,198,255,1) 100%);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan si la pantalla es estrecha */
+}
+
+.text-muted {
+    flex: 1; /* El texto de copyright se expande para ocupar el espacio restante */
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icon:hover {
+    color: #007BFF; /* Cambia el color al hacer hover */
+}
+
+
+
     
