@@ -12,7 +12,7 @@
 .textoNavBar{
     color: whitesmoke;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -65,4 +65,44 @@
 
 .icon:hover {
     color: #007BFF; /* Cambia el color al hacer hover */
+}
+.PrimerContenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+}
+.Descripcion >p{
+    padding: 10px;
+}
+
+
+.carousel{
+    
+   overflow: auto;
+}
+.SobreNosotros{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.item-img{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+}
+.Integrantes{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50vw;
+}
+.item-img{
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    
+}
+.item-img>img{
+    width: 100%;
 }
