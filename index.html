@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   
   <title>Coldplay Web Site</title>
@@ -82,7 +86,7 @@
     </article>
     </section>
       
-    <section id="Sobre la Banda">
+    <section   class="SobreLaBanda"id="Sobre la Banda">
         <h2>Nuestra Historia</h2>
         <article class="Descripcion">
          <p>Coldplay es una banda británica formada en Londres en 1997. Está integrada por Chris Martin, Jonny Buckland, Guy Berryman, Will Champion y Phil Harvey (director creativo).
@@ -157,23 +161,59 @@
            </div>  
       </div>
 
-  <section id="Contacto">
-
-  </section>
-        
-       
-     
-
     <aside class="Videos">
       
-
     <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/MbeLSzmWXb0?si=Vp_EQ35mllK2Lp_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lwCrs1FFTJ0?si=JBmgck2Qy67wcbxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     <div></div>
 
-
-
     </aside>
+    <section class="contacto" id="Contacto">
+      <article>
+        <div class="contact_form">
+  
+          <div class="formulario">			
+            <h1>Formulario de contacto</h1>
+              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+      
+      
+                <form action="submeter-formulario.php" method="post">				
+      
+                  
+                      <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                      </p>
+                    
+                      <p>
+                        <label for="email" class="colocar_email">Email
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                      </p>
+                  
+                      <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                          <span class="obligatorio">*</span>
+                        </label>                     
+                                          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                      </p>	  								
+                    
+                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+      
+                      <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                      </p>					
+                  
+                </form>
+          </div>	
+        </div>
+      </article>
+    </section>
+  
+    
   </main>
 
   <footer class="footer">
