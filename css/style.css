@@ -15,7 +15,7 @@
    
 }
 .textoNavBar:hover {
-    color: #32CD32; /* Cambia el color al hacer hover */
+    color:darkorchid; /* Cambia el color al hacer hover */
 }
 .textoNavBar{
     color: whitesmoke;
@@ -90,15 +90,18 @@
   justify-content: center;  
   color:blanchedalmond;
   font-family: 'Roboto', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bolder;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .Descripcion>p{
     display: flex;
     justify-content:center;
     font-stretch: expanded;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     color: blanchedalmond;
 }
@@ -186,16 +189,16 @@ main {
     color: black;
   }
   
-  /* Style the back side */
+  /* parte de atras carta*/
   .flip-card-back {
     background: rgb(115,106,171);
     background: radial-gradient(circle, rgba(115,106,171,1) 0%, rgba(50,9,57,1) 66%);
     color: white;
     transform: rotateY(180deg);
-    padding: 10px;
+    padding-top: 30px;
     text-align: center;
     font-family: 'Roboto', sans-serif;;
-    font-size: 15px;
+    font-size: 18px;
     color: whitesmoke;
   }
 
@@ -252,39 +255,39 @@ main {
   }
 
   .contact_form{	
-    /* width: 800px;  */
+    width: 800px; 
     height: auto;
     margin: 80px auto;
     border-radius: 10px;  
     padding-top: 30px;
     padding-bottom: 20px;  
-    background-color: #fbfbfb; 
+    background-color:#660066;
     padding-left: 30px; 
   }
   
   
   input{
-    background-color: #fbfbfb; 
-    /* width: 408px;  */
+    background-color:#ffe6e6; 
+    width: 700px; 
     height: 40px; 
     border-radius: 5px;  
     border-style: solid; 
-    border-width: 1px; 
-    border-color: #ab4493; 
+    border-width: 2px; 
+    border-color:palevioletred; 
     margin-top: 10px;  
-    padding-left: 700px;
+    padding-left: 300px;
     margin-bottom: 20px; 
   }
   
   
   textarea{
-    background-color: #fbfbfb; 
-    width: 605px; 
+    background-color:#ffe6ff; 
+    width: 505px; 
     height: 80px; 
     border-radius: 5px;  
     border-style: solid; 
-    border-width: 1px; 
-    border-color: #ab4493; 
+    border-width: 2px; 
+    border-color:palevioletred; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 10px; 
@@ -306,27 +309,28 @@ main {
     margin-top: 10px; 	
     text-transform: uppercase;
     background-color: #ab4493; 
-    border-color: #ab4493; 
+    border-color: #ffe6ff; 
     border-style: solid; 
     border-radius: 10px;	
-    width: 420px;   
+    width: 320px;   
     cursor: pointer;
   }
   
   
   button p{
     color: #fff; 
+    padding-top: 10px;
   }
   
   
   span{
-    color: #ab4493; 
+    color: #fff; 
   }
   
   
   .aviso{
     font-size: 13px;  
-    color: #0e0e0e;  
+    color: #fff;  
   }
   
   
@@ -334,7 +338,7 @@ main {
     font-size: 39px;  
     text-align: center; 
     padding-bottom: 20px; 
-    color: #ab4493;
+    color: #fff;
   }
   
   
@@ -342,13 +346,19 @@ main {
     text-align: center;
     font-size: 16px; 
     padding-bottom: 30px;
-    color: #0e0e0e;   
+    color: #fff   
   }
   
   
-  .formulario>p{
-    font-size: 14px; 
-    color: #0e0e0e; 
+  .colocar_nombre{
+    color: #fff;
+  }
+  .colocar_email{
+    color: #fff;
+
+  }
+  .colocar_mensaje{
+    color: #fff;
   }
   
   
@@ -364,12 +374,12 @@ main {
   
   .formulario input:focus{
     outline:0;
-    border: 1px solid #97d848;
+    border: 1px solid fuchsia;
   }
   
   
   .formulario textarea:focus{
     outline:0;
-    border: 1px solid #97d848;
+    border: 1px solid fuchsia;
   }
   
