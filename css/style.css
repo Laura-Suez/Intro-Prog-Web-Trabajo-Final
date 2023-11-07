@@ -199,19 +199,19 @@ main {
 
   .Videos{
     display: flex;
-    flex-direction:row;
     width: 100%;
-    justify-content: space-evenly;
-    padding-top: 30px;
-
+    flex-direction:column;
+    align-items: center;
+    padding-top: 60px;
   }
+
   .video1{
-    padding-left: 55px;
+    padding-bottom: 70px;
   }
-
-    /* Cambia el valor de 768px según tus necesidades */
+ 
+/* Cambia el valor de 768px según tus necesidades */
     @media (max-width: 768px) { 
-      .video{
+      .Videos{
         display:none;
         
       }
@@ -258,7 +258,7 @@ main {
   }
 
   .contact_form{	
-    width: 300px; 
+    width: 500px; 
     height: auto;
     margin: 80px auto 0 auto;
     border-radius: 10px;  
@@ -316,7 +316,7 @@ main {
     border-color: #ffe6ff; 
     border-style: solid; 
     border-radius: 10px;	
-    width: 100%;   
+    width: 160px;
     cursor: pointer;
   }
   
@@ -327,7 +327,7 @@ main {
   }
   
   
-  span{
+  .obligatorio{
     color: #fff; 
   }
   
