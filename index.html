@@ -19,9 +19,9 @@
 </head>
   
 <body>
-  <header class="NavBar">
+  <header class="header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary no-padding"  >
-      <div class="container-fluid">
+      <div class="container-fluid navbar">
         
         <img src="./img/logo.png" alt="Logo" height="150" class="d-inline-block align-text-top">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,10 +61,10 @@
           <div class="carousel-item active">
             <img src="../img/img1.jpg" class="d-block w-100 imageneCarrousel" alt="...">
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img src="./img/imagen2.jpg" class="d-block w-100 imageneCarrousel" alt="...">
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img src="./img/img3.jpg" class="d-block w-100 imageneCarrousel" alt="...">
           </div>
           <div class="carousel-item">
@@ -130,8 +130,9 @@
                 tiene un degree en Astronomia y otro en Matematicas.</p>
             </div>
           </div>
-        </div>  
-      
+        </div> 
+      </article>
+        
       <div class="IntegrantesInferior">
           <div class="flip-card">
             <div class="flip-card-inner"> 
@@ -160,7 +161,8 @@
             </div>
            </div>  
       </div>
-
+    
+    </section>
     <aside class="Videos">
       
     <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/MbeLSzmWXb0?si=Vp_EQ35mllK2Lp_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -177,35 +179,35 @@
               <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
       
       
-                <form action="submeter-formulario.php" method="post">				
+                <form class="container-fluid" action="submeter-formulario.php" method="post">				
       
                   
-                      <p class="nomFor">
+                      <div class="row">
                         <label for="nombre" class="colocar_nombre">Nombre
                           <span class="obligatorio">*</span>
                         </label>
                           <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                      </p>
+                      </div>
                     
-                      <p>
+                      <div class="row">
                         <label for="email" class="colocar_email">Email
                           <span class="obligatorio">*</span>
                         </label>
                           <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                      </p>
+                      </div>
                   
-                      <p>
+                      <div class="row">
                         <label for="mensaje" class="colocar_mensaje">Mensaje
                           <span class="obligatorio">*</span>
                         </label>                     
                                           <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                      </p>	  								
+                      </div>	  								
                     
-                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                      <button class="formButton" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
       
-                      <p class="aviso">
+                      <div class="row">
                         <span class="obligatorio"> * </span>los campos son obligatorios.
-                      </p>					
+                      </div>					
                   
                 </form>
           </div>	
