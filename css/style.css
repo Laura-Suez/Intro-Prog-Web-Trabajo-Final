@@ -199,16 +199,23 @@ main {
 
   .Videos{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 30px;
+
   }
-  
-  .video{
-    padding: 30px;
+  .video1{
+    padding-left: 55px;
   }
 
+    /* Cambia el valor de 768px según tus necesidades */
+    @media (max-width: 768px) { 
+      .video{
+        display:none;
+        
+      }
+    }
   
   .RainbowText {
     width: 100%;
