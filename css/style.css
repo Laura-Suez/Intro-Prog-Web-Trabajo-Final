@@ -209,12 +209,14 @@ main {
     padding-bottom: 70px;
   }
  
-/* Cambia el valor de 768px según tus necesidades */
-    @media (max-width: 768px) { 
+  @media (max-width: 768px) { 
       .Videos{
         display:none;
-        
       }
+      .contacto{
+        width: 100%;
+      }
+
     }
   
   .RainbowText {
@@ -258,7 +260,7 @@ main {
   }
 
   .contact_form{	
-    width: 500px; 
+    width: 300px; 
     height: auto;
     margin: 80px auto 0 auto;
     border-radius: 10px;  
@@ -316,7 +318,7 @@ main {
     border-color: #ffe6ff; 
     border-style: solid; 
     border-radius: 10px;	
-    width: 160px;
+    width: 100%;
     cursor: pointer;
   }
   
